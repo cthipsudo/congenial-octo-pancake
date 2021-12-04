@@ -1,9 +1,22 @@
-body {
+body, body * {
   margin: 0;
+  padding: 0;
 }
 
 #root {
   width: 100%;
   height: 100vh;
   background-color: aquamarine;
+  background: url("../images/deepstone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  flex-flow: column;
 }
